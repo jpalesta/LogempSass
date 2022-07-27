@@ -1,0 +1,44 @@
+.footer {
+    height: 20%;
+    background-color: $colorSecundarioTransparente;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-small;
+    padding: 10px 10px;
+}
+
+.footer__btn button {
+    border-radius: 5px;
+    border: solid 2px whitesmoke;
+    background-color: $colorPrincipal;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.logos {
+    color: $colorPrincipal;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.logos:hover {
+    color: #fff;
+}
+
+@media only screen and (min-width: 576px) {
+
+    .footer {
+        font-size: medium;
+        padding: 10px 10px;
+    }
+
+    .logos {
+        color: $colorPrincipal;
+        padding: 5px;
+        font-size: 25px;
+    }
+}

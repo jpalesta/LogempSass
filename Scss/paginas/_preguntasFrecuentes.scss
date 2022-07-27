@@ -1,0 +1,45 @@
+.preguntasFrecuentes__body {
+    background-image: url(../recursos/fondoNuestroServicio.svg);
+}
+
+.preguntasFrecuentes {
+    width: 90%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+
+}
+
+.preguntasFrecuentes__titulo {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: $colorPrincipal;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.preguntasFrecuentes h4 {
+    padding: 10px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, $colorSecundario, #fff);
+    color: $colorPrincipal;
+    border-radius: 5px;
+}
+
+.accordion-button{
+    font-weight: bolder;
+}
+
+.accordion-button:not(.colapsed) {
+    color: whitesmoke;
+    background-color:$colorSecundario;
+}
+
+.accordion-button:not(.colapsed)::after { 
+    filter: brightness(0%) invert(100%); 
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}

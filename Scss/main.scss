@@ -1,0 +1,26 @@
+// Generales
+@import "./utilidades/fonts";
+
+@import "./reset/reset";
+
+@import "./utilidades/variables";
+
+//Componentes comunes en todas las páginas
+
+@import "./componentesComunes/nav";
+
+@import "./componentesComunes/footer";
+
+@import "./componentesComunes/logoWhatsappFlotante";
+
+//Estilos de cada página
+
+@import "./paginas/index";
+
+@import "./paginas/quienesSomos";
+
+@import "./paginas/comoFunciona";
+
+@import "./paginas/preguntasFrecuentes";
+
+@import "./paginas/contacto";
