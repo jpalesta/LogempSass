@@ -1,4 +1,5 @@
 @media only screen and (min-width: 0px) {
+    
     .quienesSomos {
         width: 100%;
         height: 100vh;
@@ -10,25 +11,25 @@
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
-    }
 
-    .quienesSomos__h2 {
-        color: $colorPrincipal;
-        font-size: 2em;
-        background-color: $colorSecundarioTransparente;
-        width: 90%;
-        text-align: center;
-        border-radius: 5px;
-    }
+        &__h2 {
+            color: $colorPrincipal;
+            font-size: 2em;
+            background-color: $colorSecundarioTransparente;
+            width: 90%;
+            text-align: center;
+            border-radius: 5px;
+        }
 
-    .quienesSomos__p {
-        color: #fff;
-        font-size: 0.8em;
-        padding: 0 30px;
-        text-align: center;
-        background-color: $colorSecundarioTransparente;
-        width: 90%;
-        border-radius: 5px;
+        &__p {
+            color: #fff;
+            font-size: 0.8em;
+            padding: 0 30px;
+            text-align: center;
+            background-color: $colorSecundarioTransparente;
+            width: 90%;
+            border-radius: 5px;
+        }
     }
 
     .porQueElegirnos {
@@ -41,20 +42,21 @@
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
-    }
 
-    .porQueElegirnos__h2 {
-        color: $colorPrincipal;
-        font-size: 2em;
-        background-color: #ffffffc0;
-        width: 90%;
-        text-align: center;
-        border-radius: 5px;
-        margin-top: 20px;
+        &__h2 {
+            color: $colorPrincipal;
+            font-size: 2em;
+            background-color: #ffffffc0;
+            width: 90%;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
     }
 }
 
 @media only screen and (min-width: 576px) {
+
     .quienesSomos__p {
         font-size: 1em;
     }
