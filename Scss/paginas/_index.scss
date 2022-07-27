@@ -11,35 +11,35 @@
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
-    }
 
-    .pagina1__right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-        padding: 30px;
-        margin-top: 100px;
-        border: solid;
-        border-radius: 20px;
-    }
+        &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            padding: 30px;
+            margin-top: 100px;
+            border: solid;
+            border-radius: 20px;
+        }
 
-    .pagina1__h1 {
-        line-height: 1.5em;
-        text-align: center;
-        color: $colorPrincipal;
-    }
+        &__h1 {
+            line-height: 1.5em;
+            text-align: center;
+            color: $colorPrincipal;
+        }
 
-    .pagina1__p {
-        line-height: 2em;
-        text-align: center;
-    }
+        &__p {
+            line-height: 2em;
+            text-align: center;
+        }
 
-    .pagina1__btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 40vh;
+        &__btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40vh;
+        }
     }
 
     .actbtn {
@@ -56,20 +56,20 @@
         background-image: url(../Recursos/fondoNuestroServicio.svg);
         background-position: center;
         background-size: cover;
-    }
 
-    .nuestroServicio h2 {
-        padding-top: 20px;
-        font-weight: bolder;
-        color: $colorSecundarioTransparente;
-    }
+        & h2 {
+            padding-top: 20px;
+            font-weight: bolder;
+            color: $colorSecundarioTransparente;
+        }
 
-    .nuestroServicio h4 {
-        padding: 30px;
-        background-color: $colorSecundarioTransparente;
-        text-align: center;
-        color: #fff;
-        border-radius: 5px;
+        & h4 {
+            padding: 30px;
+            background-color: $colorSecundarioTransparente;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+        }
     }
 
     .card {
@@ -148,4 +148,3 @@
         font-size: 2em;
     }
 }
-

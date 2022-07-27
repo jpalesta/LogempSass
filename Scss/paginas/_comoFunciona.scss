@@ -7,21 +7,21 @@
     flex-wrap: wrap;
     justify-content: center;
     min-height: 100vh;
-}
 
-.comoFunciona__titulo {
-    color: $colorPrincipal;
-    font-size: 2em;
-    background-color:$colorFondoTitulosClaro;
-    width: 90%;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 5px;
-    margin-top: 100px;
-}
+    &__titulo {
+        color: $colorPrincipal;
+        font-size: 2em;
+        background-color: $colorFondoTitulosClaro;
+        width: 90%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+        margin-top: 100px;
+    }
 
-.comoFunciona__video {
-    border-radius: 5px;
-    border: $colorPrincipal solid 2px;
+    &__video {
+        border-radius: 5px;
+        border: $colorPrincipal solid 2px;
+    }
 }

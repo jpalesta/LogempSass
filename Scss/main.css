@@ -319,7 +319,6 @@
   justify-content: center;
   min-height: 100vh;
 }
-
 .comoFunciona__titulo {
   color: #ffa600;
   font-size: 2em;
@@ -331,7 +330,6 @@
   border-radius: 5px;
   margin-top: 100px;
 }
-
 .comoFunciona__video {
   border-radius: 5px;
   border: #ffa600 solid 2px;
@@ -346,7 +344,6 @@
   margin-top: 120px;
   margin-bottom: 20px;
 }
-
 .preguntasFrecuentes__titulo {
   text-align: center;
   color: white;
@@ -355,7 +352,6 @@
   width: 100%;
   border-radius: 5px;
 }
-
 .preguntasFrecuentes h4 {
   padding: 10px;
   margin-top: 20px;
@@ -385,14 +381,12 @@
   background-image: url(../recursos/fondoNuestroServicio.svg);
   background-size: cover;
 }
-
 .contacto__formularioContacto {
   padding: 10px;
   display: grid;
   row-gap: 5px;
   min-height: 100vh;
 }
-
 .contacto__formularioContacto__titulo {
   color: #ffa600;
   font-size: 2em;
@@ -404,7 +398,6 @@
   border-radius: 5px;
   margin-top: 100px;
 }
-
 .contacto__formularioContacto__btn {
   color: #fff;
   font-size: x-large;
