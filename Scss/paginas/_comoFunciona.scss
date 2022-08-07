@@ -9,14 +9,8 @@
     min-height: 100vh;
 
     &__titulo {
-        color: $colorPrincipal;
-        font-size: 2em;
+        @extend .quienesSomos__h2;
         background-color: $colorFondoTitulosClaro;
-        width: 90%;
-        height: 30px;
-        text-align: center;
-        line-height: 30px;
-        border-radius: map-get($bordes, redondeo);
         margin-top: 100px;
     }
 

@@ -5,9 +5,15 @@ $colorSecundarioTransparente: rgba(89, 83, 83, 0.90);
 $colorFondoTitulosClaro:#ffffff96;
 
 //mapa
-$bordes:(
-    fino:2px,
+$bordes:(fino:2px,
     medio:4px,
     grueso:6px,
-    redondeo: 5px,
-)
+    redondeo: 5px, );
+
+@mixin flex-row-wrap-center-justifysa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
