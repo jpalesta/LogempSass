@@ -16,13 +16,13 @@
         height: 30px;
         text-align: center;
         line-height: 30px;
-        border-radius: 5px;
+        border-radius: map-get($bordes, redondeo);
         margin-top: 100px;
     }
 
     &__video {
-        border-radius: 5px;
-        border: $colorPrincipal solid 2px;
+        border-radius: map-get($bordes, redondeo);
+        border: $colorPrincipal solid map-get($bordes, fino);
     }
 }
 

@@ -19,7 +19,7 @@
             width: 90%;
             padding: 30px;
             margin-top: 100px;
-            border: solid;
+            border: solid map-get($bordes, grueso;
             border-radius: 20px;
         }
 
@@ -45,7 +45,7 @@
         height: 60px;
         width: 120px;
         border-radius: 15px;
-        border: solid 3px whitesmoke;
+        border: solid map-get($bordes, medio) whitesmoke;
         background-color: $colorPrincipal;
         color: #ffffff;
         cursor: pointer;
@@ -69,7 +69,7 @@
             background-color: $colorSecundarioTransparente;
             text-align: center;
             color: #fff;
-            border-radius: 5px;
+            border-radius: map-get($bordes, redondeo);
         }
     }
 

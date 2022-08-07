@@ -11,8 +11,8 @@
 }
 
 .footer__btn button {
-    border-radius: 5px;
-    border: solid 2px whitesmoke;
+    border-radius: map-get($bordes, redondeo) ;
+    border: solid map-get($bordes, fino) whitesmoke;
     background-color: $colorPrincipal;
     color: #ffffff;
     cursor: pointer;
