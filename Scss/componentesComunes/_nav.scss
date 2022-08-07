@@ -1,6 +1,6 @@
 .navbar {
     background-color: $colorSecundarioTransparente !important;
-    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.491);
+    --bs-navbar-toggler-border-color: rgb(255, 255, 255);
     --bs-navbar-toggler-font-size: 1rem;
     --bs-navbar-toggler-padding-y: 0.5rem;
     --bs-navbar-toggler-focus-width: 0rem;
@@ -37,7 +37,7 @@
 
     .nav__textobtn {
         display: inline;
-        color: #fff;
+        color: $colorPrincipal;
         font-size: x-large;
         padding-right: 15px;
     }

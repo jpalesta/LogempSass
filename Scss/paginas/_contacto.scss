@@ -6,7 +6,8 @@
     padding: 10px;
     display: grid;
     row-gap: 5px;
-    min-height: 100vh;
+    min-height: 85vh;
+    width: 75%;
 
 &__titulo {
     color: $colorPrincipal;

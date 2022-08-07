@@ -8,7 +8,7 @@
 
 .navbar {
   background-color: rgba(89, 83, 83, 0.9) !important;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.491);
+  --bs-navbar-toggler-border-color: rgb(255, 255, 255);
   --bs-navbar-toggler-font-size: 1rem;
   --bs-navbar-toggler-padding-y: 0.5rem;
   --bs-navbar-toggler-focus-width: 0rem;
@@ -42,7 +42,7 @@
 @media only screen and (min-width: 768px) {
   .nav__textobtn {
     display: inline;
-    color: #fff;
+    color: #ffa600;
     font-size: x-large;
     padding-right: 15px;
   }
@@ -70,6 +70,7 @@
   background-color: #ffa600;
   color: #ffffff;
   cursor: pointer;
+  padding: 5px 10px;
 }
 
 .logos {
@@ -95,7 +96,7 @@
 }
 @media only screen and (min-width: 0px) {
   .logoWTPflotante {
-    color: #ffa600;
+    color: rgba(255, 255, 255, 0.862745098);
     position: fixed;
     width: 50px;
     height: 50px;
@@ -103,16 +104,17 @@
     line-height: 50px;
     bottom: 70px;
     right: 40px;
-    background: rgba(255, 255, 255, 0.862745098);
+    background: #ffa600;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
+    cursor: pointer;
   }
   .logoWTPflotante:hover {
-    color: #ffffff;
-    background: #ffa600;
+    color: #ffa600;
+    background: rgba(255, 255, 255, 0.862745098);
     transform: scale(1.1);
-    transition: 0.8s;
+    transition: 0.1s;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -131,7 +133,7 @@
     background-size: cover;
     background-position: right;
     color: #fff;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../Recursos/imagenfondo.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.452)), url(../Recursos/imagenfondo.jpg);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,15 +163,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 40vh;
   }
   .actbtn {
-    border-radius: 10px;
+    height: 60px;
+    width: 120px;
+    border-radius: 15px;
     border: solid 3px whitesmoke;
     background-color: #ffa600;
     color: #ffffff;
     cursor: pointer;
-    font-size: 1.5em;
+    padding: 5px 10px;
   }
   .nuestroServicio {
     min-height: 90vh;
@@ -204,6 +207,11 @@
     font-weight: bolder;
     font-size: 1.2em;
   }
+  .card__button {
+    background-color: #0070FF;
+    color: #fff;
+    border-color: #fff;
+  }
 }
 @media only screen and (min-width: 576px) {
   .pagina1__h1 {
@@ -214,6 +222,8 @@
   }
   .actbtn {
     font-size: 1.5em;
+    height: 100px;
+    width: 180px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -246,6 +256,7 @@
   }
   .actbtn {
     font-size: 2em;
+    width: 220px;
   }
 }
 @media only screen and (min-width: 0px) {
@@ -335,7 +346,7 @@
   border: #ffa600 solid 2px;
 }
 
-.container {
+.timeline__fondo {
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -451,7 +462,10 @@
 }
 
 .preguntasFrecuentes__body {
+  width: 100%;
   background-image: url(../recursos/fondoNuestroServicio.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .preguntasFrecuentes {
@@ -500,7 +514,8 @@
   padding: 10px;
   display: grid;
   row-gap: 5px;
-  min-height: 100vh;
+  min-height: 85vh;
+  width: 75%;
 }
 .contacto__formularioContacto__titulo {
   color: #ffa600;
