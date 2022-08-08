@@ -3498,7 +3498,7 @@
     pre: [],
     s: [],
     small: [],
-    span: [],
+    strong: [],
     sub: [],
     sup: [],
     strong: [],

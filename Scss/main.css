@@ -202,7 +202,7 @@
     margin-top: 10px;
     filter: grayscale(1);
   }
-  .card p span {
+  .card p strong {
     color: #ffa600;
     font-weight: bolder;
     font-size: 1.2em;
@@ -364,7 +364,7 @@
   width: 100%;
   border-radius: 5px;
 }
-.preguntasFrecuentes h4 {
+.preguntasFrecuentes h3 {
   padding: 10px;
   margin-top: 20px;
   background-image: linear-gradient(to right, rgb(89, 83, 83), #fff);
