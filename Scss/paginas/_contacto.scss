@@ -6,7 +6,7 @@
     padding: 10px;
     display: grid;
     row-gap: 5px;
-    min-height: 85vh;
+    min-height: 100vh;
     width: 75%;
 
 &__titulo {
@@ -18,7 +18,7 @@
     text-align: center;
     line-height: 30px;
     border-radius: map-get($bordes, redondeo);
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 &__btn {

@@ -7,6 +7,7 @@
         background-position: bottom;
         background-image: url(../recursos/ruta.jpg);
         @include flex-row-wrap-center-justifysa;
+        border-bottom: solid 5px $colorPrincipal;
 
         &__h2 {
             color: $colorPrincipal;

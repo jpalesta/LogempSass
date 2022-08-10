@@ -22,7 +22,7 @@
     <title>Logemp - Contacto - Envianos tus consultas</title>
 </head>
 
-<body>
+<body class="contacto">
     <nav class="navbar navbar-secondary bg-secondary fixed-top">
         <div class=" row col-5 col-sm-4 col-md-3 col-lg-2">
             <a href="../index.html"><img src="../recursos/logonaranja1.png" class="img-fluid" data-aos="zoom-in"
@@ -71,58 +71,57 @@
         </div>
     </nav>
 
-    <div class="contacto">
+    <div class="container contacto__formularioContacto">
 
-        <div class="container contacto__formularioContacto">
+        <h2 data-aos="fade-down" class="contacto__formularioContacto__titulo">CONTACTANOS</h2>
 
-            <h2 data-aos="fade-down" class="contacto__formularioContacto__titulo">CONTACTANOS</h2>
-
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
-                <label for="floatingInput">Nombre</label>
-            </div>
-            <div data-aos="fade-down" data-aos-delay="800" data-aos-duration="600" class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Correo electrónico</label>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="1400" data-aos-duration="600" class="form-floating">
-                <input type="tel" class="form-control" id="floatingInput" placeholder="1131133333">
-                <label for="floatingInput">Teléfono</label>
-            </div>
-            <div data-aos="fade-down" data-aos-delay="2000" data-aos-duration="600" class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                    style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comentarios</label>
-                <div>
-                    <button data-aos="fade-up" data-aos-delay="2600" data-aos-duration="600" type="submit"
-                        class="btn btn-warning contacto__formularioContacto__btn">Enviar</button>
-                    <button data-aos="fade-down" data-aos-delay="3000" data-aos-duration="600" type="reset"
-                        class="btn btn-warning contacto__formularioContacto__btn">Borrar</button>
-                </div>
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+            <label for="floatingInput">Nombre</label>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="800" data-aos-duration="600" class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Correo electrónico</label>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="1400" data-aos-duration="600" class="form-floating">
+            <input type="tel" class="form-control" id="floatingInput" placeholder="1131133333">
+            <label for="floatingInput">Teléfono</label>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="2000" data-aos-duration="600" class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comentarios</label>
+            <div>
+                <button data-aos="fade-up" data-aos-delay="2600" data-aos-duration="600" type="submit"
+                    class="btn btn-warning contacto__formularioContacto__btn">Enviar</button>
+                <button data-aos="fade-down" data-aos-delay="3000" data-aos-duration="600" type="reset"
+                    class="btn btn-warning contacto__formularioContacto__btn">Borrar</button>
             </div>
         </div>
+    </div>
 
-        <strong class="logoWTPflotante" data-aos="fade-left" data-aos-delay="500" data-aos-duration="500"><i
-                class="fa-brands fa-whatsapp"></i></strong>
+    <strong><a class="logoWTPflotante " href="https://api.whatsapp.com/send?phone=541136856826"><i
+                class="fa-brands fa-whatsapp"></i></a></strong>
 
-        <footer class="footer">
-            <p class="footer__textos">Copyright 2018 <br> Todos los derechos reservados</p>
-            <a class="footer__btn" href="Paginas/contacto.html"><button>Comencemos</button></a>
-            <div>
-                <p class="footer__textos">Estamos en contacto</p>
-                <a class="logos" href="https://www.instagram.com/logemp2.0/"><i class="fa-brands fa-instagram"></i></a>
-                <a class="logos" href="https://api.whatsapp.com/send?phone=+5491166173189"><i
-                        class="fa-brands fa-whatsapp"></i></a>
-                <a class="logos" href=#><i class="fa-regular fa-envelope"></i></a>
-            </div>
-        </footer>
 
-        <script src="../js/bootstrap.js"></script>
+    <footer class="footer">
+        <p class="footer__textos">Copyright 2018 <br> Todos los derechos reservados</p>
+        <a href="Paginas/contacto.html"><button class="footer__btn">Comencemos</button></a>
+        <div>
+            <p class="footer__textos">Estamos en contacto</p>
+            <a class="logos" href="https://www.instagram.com/logemp2.0/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="logos" href="https://api.whatsapp.com/send?phone=541136856826"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+            <a class="logos" href=mailto:info@logemp.com><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script src="../js/bootstrap.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
