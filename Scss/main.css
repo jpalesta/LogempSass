@@ -203,7 +203,7 @@
   }
   .nuestroServicio {
     min-height: 90vh;
-    background-image: url(../Recursos/fondoNuestroServicio.svg);
+    background-image: url(../recursos/fondoNuestroServicio.svg);
     background-position: center;
     background-size: cover;
     border-bottom: solid 5px #ffa600;
@@ -240,19 +240,19 @@
     color: #fff;
     border-color: #fff;
   }
-  .nuestrosClientes {
+  .nuestrosclientes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
   }
-  .nuestrosClientes__h2 {
+  .nuestrosclientes__h2 {
     background-color: rgba(255, 255, 255, 0.7529411765);
     border-radius: 5px;
     margin-top: 20px;
   }
-  .nuestrosClientes__h4 h4 {
+  .nuestrosclientes__h4 h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -261,10 +261,10 @@
     line-height: 50px;
     min-height: 50px;
   }
-  .nuestrosClientes strong {
+  .nuestrosclientes strong {
     color: #ffa600;
   }
-  #carouselNuestrosClientes .carousel-item img {
+  #carouselNuestrosclientes .carousel-item img {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
@@ -335,7 +335,7 @@
     justify-content: space-around;
     border-bottom: solid 5px #ffa600;
   }
-  .quienesSomos__h2, .comoFunciona__titulo, .porQueElegirnos__h2, .nuestrosClientes__h2 {
+  .quienesSomos__h2, .comoFunciona__titulo, .porQueElegirnos__h2, .nuestrosclientes__h2 {
     color: #ffa600;
     font-size: 2em;
     background-color: rgba(89, 83, 83, 0.9);

@@ -61,7 +61,7 @@
 
     .nuestroServicio {
         min-height: 90vh;
-        background-image: url(../Recursos/fondoNuestroServicio.svg);
+        background-image: url(../recursos/fondoNuestroServicio.svg);
         background-position: center;
         background-size: cover;
         border-bottom: solid 5px $colorPrincipal;
@@ -105,7 +105,7 @@
         border-color: #fff;
     }
 
-    .nuestrosClientes {
+    .nuestrosclientes {
         @include flex-row-wrap-center-justifysa;
 
         &__h2 {
@@ -130,7 +130,7 @@
         }
     }
 
-    #carouselNuestrosClientes .carousel-item img {
+    #carouselNuestrosclientes .carousel-item img {
         object-fit: scale-down;
         object-position: center;
         height: 62vh;
