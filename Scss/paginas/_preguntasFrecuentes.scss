@@ -1,5 +1,8 @@
 .preguntasFrecuentes__body {
+    width: 100%;
     background-image: url(../recursos/fondoNuestroServicio.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .preguntasFrecuentes {
@@ -14,15 +17,15 @@
         font-size: 2em;
         background-color: $colorPrincipal;
         width: 100%;
-        border-radius: 5px;
+        border-radius: map-get($bordes, redondeo);
     }
 
-    & h4 {
+    & h3 {
         padding: 10px;
         margin-top: 20px;
         background-image: linear-gradient(to right, $colorSecundario, #fff);
         color: $colorPrincipal;
-        border-radius: 5px;
+        border-radius: map-get($bordes, redondeo);
     }
 }
 

@@ -7,6 +7,7 @@
     display: grid;
     row-gap: 5px;
     min-height: 100vh;
+    width: 75%;
 
 &__titulo {
     color: $colorPrincipal;
@@ -16,8 +17,8 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
-    border-radius: 5px;
-    margin-top: 100px;
+    border-radius: map-get($bordes, redondeo);
+    margin-top: 120px;
 }
 
 &__btn {

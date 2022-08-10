@@ -3,14 +3,11 @@
         width: 100%;
         height: 100vh;
         background-size: cover;
-        background-position: right;
+        background-position: center;
         color: #fff;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../Recursos/imagenfondo.jpg);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616) 10%, rgba(247, 244, 244, 0.089)), url(../.././recursos/imagenfondo2.jpg);
+        @include flex-row-wrap-center-justifysa;
+        border-bottom: solid 5px $colorPrincipal;
 
         &__right {
             display: flex;
@@ -19,7 +16,7 @@
             width: 90%;
             padding: 30px;
             margin-top: 100px;
-            border: solid;
+            background-color: $colorSecundarioTransparente;
             border-radius: 20px;
         }
 
@@ -38,17 +35,28 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 40vh;
         }
     }
 
     .actbtn {
-        border-radius: 10px;
-        border: solid 3px whitesmoke;
-        background-color: $colorPrincipal;
+        height: 60px;
+        width: 120px;
+        border-radius: 15px;
         color: #ffffff;
         cursor: pointer;
-        font-size: 1.5em;
+        padding: 5px 10px;
+        border: none;
+        background-image: linear-gradient(to right, $colorPrincipal 50%, $colorSecundarioTransparente 50%);
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: left;
+        transition: all 0.3s ease;
+    }
+
+    .actbtn:hover {
+        background-position: right;
+        font-weight: bold;
+        border: solid #fff map-get($bordes, fino);
     }
 
     .nuestroServicio {
@@ -56,6 +64,7 @@
         background-image: url(../Recursos/fondoNuestroServicio.svg);
         background-position: center;
         background-size: cover;
+        border-bottom: solid 5px $colorPrincipal;
 
         & h2 {
             padding-top: 20px;
@@ -68,7 +77,7 @@
             background-color: $colorSecundarioTransparente;
             text-align: center;
             color: #fff;
-            border-radius: 5px;
+            border-radius: map-get($bordes, redondeo);
         }
     }
 
@@ -84,10 +93,50 @@
         filter: grayscale(1);
     }
 
-    .card p span {
+    .card p strong {
         color: $colorPrincipal;
         font-weight: bolder;
         font-size: 1.2em;
+    }
+
+    .card__button {
+        background-color: #0070FF;
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .nuestrosClientes {
+        @include flex-row-wrap-center-justifysa;
+
+        &__h2 {
+            @extend .quienesSomos__h2;
+            background-color: #ffffffc0;
+            border-radius: map-get($bordes, redondeo);
+            margin-top: 20px;
+        }
+
+        &__h4 h4 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: $colorSecundarioTransparente;
+            text-align: center;
+            line-height: 50px;
+            min-height: 50px;
+        }
+
+        & strong {
+            color: $colorPrincipal;
+        }
+    }
+
+    #carouselNuestrosClientes .carousel-item img {
+        object-fit: scale-down;
+        object-position: center;
+        height: 62vh;
+        overflow: hidden;
+        background-image: radial-gradient(#fff 5%,rgba(0, 0, 0, 0.658)70%),url(../../recursos/imagenfondo.jpg);
+        border-radius: 30px 30px 0 0;
     }
 }
 
@@ -103,6 +152,8 @@
 
     .actbtn {
         font-size: 1.5em;
+        height: 100px;
+        width: 180px;
     }
 }
 
@@ -146,5 +197,7 @@
 
     .actbtn {
         font-size: 2em;
+        width: 220px;
+        ;
     }
 }

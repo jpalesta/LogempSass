@@ -8,15 +8,27 @@
     justify-content: space-around;
     font-size: x-small;
     padding: 10px 10px;
+    border-top: solid 2px $colorPrincipal;
+    border-bottom: solid 2px $colorPrincipal;
 }
 
-.footer__btn button {
-    border-radius: 5px;
-    border: solid 2px whitesmoke;
-    background-color: $colorPrincipal;
+.footer__btn {
+    border-radius: map-get($bordes, redondeo);
     color: #ffffff;
-    cursor: pointer;
 
+    padding: 5px 10px;
+    border: none;
+    background-image: linear-gradient(to right, $colorPrincipal 50%, $colorSecundarioTransparente 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+}
+
+.footer__btn:hover {
+    background-position: right;
+    font-weight: bolder;
+    border: solid #fff;
 }
 
 .logos {
