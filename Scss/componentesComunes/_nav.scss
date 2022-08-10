@@ -11,11 +11,11 @@
 }
 
 .nav__btn {
-    width: 90%;
+    width: 80%;
     font-size: xx-small;
     color: white;
     background-color: $colorPrincipal;
-    margin: 5px;
+    margin: 3px;
 }
 
 .nav__textobtn {
@@ -35,7 +35,7 @@
 @media only screen and (min-width: 576px) {
 
     .nav__btn {
-        font-size: medium;
+        font-size: xx-small;
     }
 }
 
