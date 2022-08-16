@@ -9,8 +9,9 @@
 .navbar {
   background-color: rgba(89, 83, 83, 0.9) !important;
   --bs-navbar-toggler-border-color: rgb(255, 255, 255);
-  --bs-navbar-toggler-font-size: 1.5rem;
-  --bs-navbar-toggler-padding-y: 0.5rem;
+  --bs-navbar-toggler-font-size: 1rem;
+  --bs-navbar-toggler-padding-y: 0.3rem;
+  --bs-navbar-toggler-padding-x: 0.3rem;
   --bs-navbar-toggler-focus-width: 0rem;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   padding: 10px 20px;
@@ -20,10 +21,11 @@
 
 .nav__btn {
   width: 90%;
-  font-size: small;
+  font-size: x-small;
   color: white;
   background-color: #ffa600;
-  margin: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .nav__textobtn {
@@ -150,7 +152,7 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616) 10%, rgba(247, 244, 244, 0.089)), url(../.././recursos/imagenfondo2.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 10%, rgba(247, 244, 244, 0.089)), url(../recursos/imagenfondo2.jpg);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -240,19 +242,19 @@
     color: #fff;
     border-color: #fff;
   }
-  .nuestrosClientes {
+  .nuestrosclientes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
   }
-  .nuestrosClientes__h2 {
+  .nuestrosclientes__h2 {
     background-color: rgba(255, 255, 255, 0.7529411765);
     border-radius: 5px;
     margin-top: 20px;
   }
-  .nuestrosClientes__h4 h4 {
+  .nuestrosclientes__h4 h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -261,17 +263,17 @@
     line-height: 50px;
     min-height: 50px;
   }
-  .nuestrosClientes strong {
+  .nuestrosclientes strong {
     color: #ffa600;
   }
-  #carouselNuestrosClientes .carousel-item img {
+  #carouselNuestrosclientes .carousel-item img {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
        object-position: center;
     height: 62vh;
     overflow: hidden;
-    background-image: radial-gradient(#fff 5%, rgba(0, 0, 0, 0.658) 70%), url(../../recursos/imagenfondo.jpg);
+    background-image: radial-gradient(#fff 5%, rgba(0, 0, 0, 0.658) 70%);
     border-radius: 30px 30px 0 0;
   }
 }
@@ -335,7 +337,7 @@
     justify-content: space-around;
     border-bottom: solid 5px #ffa600;
   }
-  .quienesSomos__h2, .comoFunciona__titulo, .porQueElegirnos__h2, .nuestrosClientes__h2 {
+  .quienesSomos__h2, .comoFunciona__titulo, .porQueElegirnos__h2, .nuestrosclientes__h2 {
     color: #ffa600;
     font-size: 2em;
     background-color: rgba(89, 83, 83, 0.9);
