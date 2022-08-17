@@ -205,7 +205,7 @@
   }
   .nuestroServicio {
     min-height: 90vh;
-    background-image: url(../Recursos/fondoNuestroServicio.svg);
+    background-image: url(../recursos/fondoNuestroServicio.svg);
     background-position: center;
     background-size: cover;
     border-bottom: solid 5px #ffa600;
