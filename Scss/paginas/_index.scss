@@ -5,7 +5,7 @@
         background-size: cover;
         background-position: center;
         color: #fff;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616) 10%, rgba(247, 244, 244, 0.089)), url(../.././recursos/imagenfondo2.jpg);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 10%, rgba(247, 244, 244, 0.089)), url(../recursos/imagenfondo2.jpg);
         @include flex-row-wrap-center-justifysa;
         border-bottom: solid 5px $colorPrincipal;
 
@@ -135,7 +135,7 @@
         object-position: center;
         height: 62vh;
         overflow: hidden;
-        background-image: radial-gradient(#fff 5%,rgba(0, 0, 0, 0.658)70%),url(../../recursos/imagenfondo.jpg);
+        background-image: radial-gradient(#fff 5%,rgba(0, 0, 0, 0.658)70%);
         border-radius: 30px 30px 0 0;
     }
 }
